@@ -6,7 +6,7 @@ app.use(cors({
 }))
 app.use(express.json())
  
-const arr = []
+const let = []
 
 app.get("/",(req,res)=>{
     res.send("crazy panda ! ")
